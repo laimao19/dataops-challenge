@@ -65,6 +65,15 @@ N1 Health’s client, a national Medicare Advantage plan, is seeking to understa
         - 500 cities dataset has both the city FIPS code ("placefips") and tract FIPS code ("tractfips")
         - FDA dataset uses only the county-level FIPS code ("FIPS")
         - **NOTE**: the FDA dataset's county-level code and 500 cities dataset's city-level code DO NOT match. the first 5 digits of the tract FIPS code for the 500 cities dataset DOES match the convention of the FDA dataset codes though.
+- **Additional Important Information**: Regarding the actual challenge.db file that was given
+    - I used the DB Browser (SQLite) to browse through the actual .db file and observe what was given
+    - For the 500 cities dataset -> I believe all columns that are listed on the website are provided in this data
+    - For the FDA Food Atlas dataset -> only the "Access" sub-dataset is given as well as the variable list that provides meanings for each of the keys
+    - Table names:
+        - five_hundred_cities = 500 cities
+        - access = access subtable in FDA food atlas
+        - variable_list = variable list subtable in FDA food atlas
+    - Another thing I noticed was that in the actual given FDA food atlas access table, the FIPS code is sometimes 4 digits and is sometimes 5 digits. It's 4 digits when the first digit would have been 0, and 5 digits when the first digit is not 0. 
 
 ## Evaluation Criteria
 - Can you produce a compelling analytical story from novel, messy datasets?
