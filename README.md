@@ -12,6 +12,7 @@ N1 Health’s client, a national Medicare Advantage plan, is seeking to understa
 - What is a medicare advantage plan?
     - According to the uhc website, "Medicare Advantage (Part C) plans offer all the benefits of Original Medicare (Part A and Part B), with extras like dental, vision, and hearing benefits. Some offer health and wellness benefits, like a gym membership. Most include part D prescription drug coverage."
     - Major providers that offer these plans include UnitedHealthcare, Humana, Aetna, Cigna, etc.
+    - "Medicare is federal health insurance for anyone **age 65 and older**, and some people under 65 with certain disabilities or conditions."
 - What could be defined as a "food access challenge"?
     - The following information is taken from the straydoginstitute website on food access disparities
     - **Food access**: "the stable availability of nourishing, affordable, and suitable foods. physical and economic accessibility are important elements, along with production systems that prioritize the wellbeing of food producers and consumers"
