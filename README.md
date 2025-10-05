@@ -41,7 +41,7 @@ N1 Health’s client, a national Medicare Advantage plan, is seeking to understa
         - crude prevalence: raw percentage not adjusted for differences in age, distribution, demographics, etc.
         - confidence interval: tells the range in which the true percentage is expected to fall (likely 95% of the time)
     - **How did they deal with missing data?**
-        - (not known yet, will put this here later if they do have any missing data)
+        - It seems like if data was missing, it is just missing as a NULL from the dataset.
 - FDA - Food Atlas
     - Purpose of this dataset/atlas is to "provide a spatial overview of a community's ability to access healthy food and its success in doing so" and "to assemble statistics on food environment indicators to stimulate research on the determinants of food choices and diet quality"
     - Contains information about the state, county, and FIPS codes (federal information standard publication code)
@@ -55,6 +55,10 @@ N1 Health’s client, a national Medicare Advantage plan, is seeking to understa
     - Varying units used for the aforementioned information (% change, count, percent, # per 1,000 pop)
     - **How did they deal with missing data?**
         - "Data that were not available, not applicable, or suppresssed for specific counties are denoted with N/A or -9999. Counties that didn't exist in a particular year are referred to with -8888."
+- CORGIS County Demographics CSV File (https://corgis-edu.github.io/corgis/csv/county_demographics/)
+    - Gives information "about counties in the United States from 2010 through 2019 through the United States Census Bureau"
+    - Includes a variable that is an "estimated percentage of population whose ages are equal or greater than 65 years old" for various County, State places in the United States
+    - Values are denoted as -1 in this dataset if they are not available.
 - **Additional Important Information**: FIPS
     - What is FIPS?
         - Federal Information Processing System (FIPS) Codes for States and Counties
